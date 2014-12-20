@@ -1,4 +1,3 @@
-
-virtualenv venv
-source venv/bin/activate
-pip install reportlab --upgrade
+#virtualenv venv
+#source venv/bin/activate
+#pip install reportlab --upgrade
