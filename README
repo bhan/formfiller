@@ -1,0 +1,3 @@
+dependencies:
+python
+reportlab (pip install reportlab)
