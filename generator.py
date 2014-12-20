@@ -6,12 +6,15 @@ from reportlab.platypus import Image, SimpleDocTemplate
 c = canvas.Canvas("output.pdf", pagesize=letter)
 c.setFont("Times-Roman", 14)
 width, height = letter
-seal = Image("seal.png")
-seal.drawOn(c,100,500)
-c.drawString(100, 600, "Page 1")
+
+Image("page1.png", width=width, height=height).drawOn(c,0,0)
+#c.drawString(100, 600, "Page 1")
 c.showPage() # next draws on new page
-c.drawString(100, 100, "Page 2")
+
+#c.drawString(100, 100, "Page 2")
+Image("page2.png", width=width, height=height).drawOn(c,0,0)
 c.showPage()
+
 c.save()
 
 #TODO save pdf origin as image and overlay
