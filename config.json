@@ -1,0 +1,47 @@
+{
+  "name": {
+    "column": "B"
+  },
+  "address": {
+    "column": "G"
+  },
+  "city": {
+    "column": "F"
+  },
+  "zip": {
+    "column": "E"
+  },
+  "phone": {
+    "column": "H"
+  },
+  "email": {
+    "column": "I"
+  },
+  "birthdate": {
+    "column": "J"
+  },
+  "gender": {
+    "column": "K"
+  },
+  "hispanic": {
+    "column": "Q"
+  },
+  "race": {
+    "column": "R"
+  },
+  "family_head": {
+    "column": "S"
+  },
+  "family_member_number": {
+    "column": "T"
+  },
+  "family_estimated_income": {
+    "column": "U"
+  },
+  "family_income_level": {
+    "column": "V"
+  },
+  "family_income_certification": {
+    "column": "W"
+  }
+}
